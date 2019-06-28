@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundimage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/kalimai_taiyeba_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/transparent_background"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="@string/kalemai_taiyeba"
+                android:textSize="@dimen/text_vew_size1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/kalimai_shahadat_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/transparent_background"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="@string/kalimay_shahadat"
+                android:textSize="@dimen/text_vew_size1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/kalimai_tauhid_TV"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/transparent_background"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="@string/kalimay_tauhid"
+                android:textSize="@dimen/text_vew_size1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/kalimai_tamjid_TV"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/transparent_background"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="@string/kalimay_tamjid"
+                android:textSize="@dimen/text_vew_size1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/kalimai_as_Tagfir_TV"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/transparent_background"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="@string/kalimay_astagfer"
+                android:textSize="@dimen/text_vew_size1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/kalimai_kufur_TV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/transparent_background"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="@string/kalimay_kufur"
+                android:textSize="@dimen/text_vew_size1" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</layout>

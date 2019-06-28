@@ -1,0 +1,659 @@
+<resources>
+    <string name="app_name">নামাজের সময় ও সূরা</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--<string name="nav_header_title">Android Studio</string>-->
+    <!--<string name="nav_header_subtitle">android.studio@android.com</string>-->
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="fozor">ফযর (فجر)</string>
+    <string name="sunrise">সূর্যোদয়</string>
+    <string name="zohor">যুহর (ظهر)</string>
+    <string name="achor">আসর (عصر)</string>
+    <string name="magrib">মাগরিব (مغرب)</string>
+    <string name="esha">ইশা (عشاء)</string>
+
+
+    <string name="rozar_somay_somuho">রোজার সময়সূচি ২০১৯</string>
+    <string name="kalima_somuho">কালিমা সমূহ</string>
+    <string name="namazer_sura_somuho">নামাজের প্রয়োজনীয় সূরা সমূহ</string>
+    <string name="name_99">আল্লাহ্‌র গুণবাচক নাম </string>
+    <string name="tasbi">তাসবিহ </string>
+    <string name="hadis">গুরুত্বপূর্ণ কিছু হাদিস</string>
+
+
+    <string name="kalemai_taiyeba"> কালিমায়ে তাইয়্যেবা </string>
+    <string name="kalimay_shahadat"> কালিমায়ে শাহাদাত </string>
+    <string name="kalimay_tauhid"> কালিমায়ে তাওহীদ </string>
+    <string name="kalimay_tamjid"> কালিমায়ে তামযীদ </string>
+    <string name="kalimay_astagfer"> কালেমা-ই-আস্তাগফের </string>
+    <string name="kalimay_kufur">  কালেমা-ই-রুদ-ই-কুফর </string>
+
+
+    <string name="hadith_siam">সিয়াম</string>
+    <string name="hadith_salat">সালাত</string>
+    <string name="hadith_iman">ঈমান</string>
+    <string name="hadith_hazz">হজ্জ</string>
+    <string name="hadith_jakat">যাকাত</string>
+
+
+    <string name="kalemai_taiyeba_arbi">لآ اِلَهَ اِلّا اللّهُ مُحَمَّدٌ رَسُوُل اللّهِ </string>
+    <string name="kalemai_taiyeba_uccharon">উচ্চারণ : লা ইলাহা ইল্লাল্লাহু মুহাম্মাদুর রাসূলুল্লাহ |</string>
+    <string name="kalemai_taiyeba_ortho"> অর্থ : আল্লাহ ছাড়া কোন মা’বুদ নাই, মুহাম্মাদ (স.) আল্লাহর রাসুল। </string>
+
+    <string name="kalimay_shahadat_arbi">اشْهَدُ انْ لّآ اِلهَ اِلَّا اللّهُ وَحْدَه لَا شَرِيْكَ لَه، وَ اَشْهَدُ اَنَّ مُحَمَّدً اعَبْدُهوَرَسُولُه</string>
+    <string name="kalimay_shahadat_ucharon">উচ্চারণ : আশহাদু আন লা ইলাহা ইল্লাল্লাহু ওয়াহদাহু লা শারীকা লাহু ওয়াশহাদু আন্না মুহাম্মাদান আবদুহু ওয়ারাসুলূহু</string>
+    <string name="kalimay_shahadat_ortho">অর্থ : আমি সাক্ষ্য দিচ্ছি যে, আল্লাহ ছাড়া কোন ইলাহ নেই, তার কোন অংশীদার নেই। আমি আরও সাক্ষ্য দিচ্ছি যে, মুহাম্মাদ (স.) আল্লাহর প্রেরিত রাসুল। </string>
+
+    <string name="kalimay_tauhid_arabic">لَآ اِلٰهَ اِلَّا اللهُ وَحْدَهٗ لَا شَرِيْكَ لَهٗ لَهُ الْمُلْكُ وَ لَهُ الْحَمْدُ يُحْىٖ وَ يُمِيْتُ وَ هُوَحَیٌّ لَّا يَمُوْتُ اَبَدًا اَبَدًاؕ ذُو الْجَلَالِ وَالْاِكْرَامِؕ بِيَدِهِ الْخَيْرُؕ وَهُوَ عَلٰى كُلِّ شیْ ٍٔ قَدِیْرٌؕ‎ </string>
+    <string name="kalimay_tauhid_uccharon">উচ্চারণ :  লা-ইলাহা ইল্লাল্লাহু ওয়াহ্ দাহু লা-সারিকা লা-হু লাহুল মুলকু ওয়া লাহুল হামদু ইউহা ই ওয়া উ মিতু বি ইয়া সি হিল খাইরু ওয়া-হু-ওয়া আ-লা কুল্লি শাইয়িন ক্বাদীর।</string>
+    <string name="kalimay_tauhid_ortho">অর্থ : আল্লাহ এক আর কোন মাবুদ নেই তিনি এক তার কোন অংশীদার নেই। সমস্ত সৃষ্টি জগৎ এবং সকল প্রশংসা তাঁরই। তিনি জীবন দান করেন আবার তিনিই মৃত্যুর কারণ তার হাতেই সব ভাল কিছু এবং তিনিই সৃষ্টির সবকিছুর উপর ক্ষমতাবান। </string>
+
+
+    <string name="kalimay_tamjid_arabic">سُبْحَان اللهِ وَالْحَمْدُلِلّهِ وَلا إِلهَ إِلّااللّهُ وَاللّهُ أكْبَرُ وَلا حَوْلَ وَلاَ قُوَّةَ إِلَّا بِاللّهِ الْعَلِيِّ الْعَظِيْم‎</string>
+    <string name="kalimay_tamjid_uccharon"> উচ্চারণ : সুব্হানাল্লাহি ওয়াল হামদুলিল্লাহি ওয়া লা-ইলাহা ইল্লাল্লাহু ওয়াল্লাহু আক্বার ওয়ালা হাওলা ক্বুয়াতা ইল্লা বিল্লাহিল্ আলিইল্ আযীম্।  </string>
+    <string name="kalimay_tamjid_ortho">অর্থ :  মহিমা ও সকল প্রসংশা আল্লাহ্র জন্য, আল্লাহ ব্যতীত আর কোন উপাস্য নেই। আল্লাহ মহান, সর্বশক্তিমান ও সর্বক্ষমতাবান। আল্লাহ ব্যতীত আর কেউ নয়। তিনিই মহান। </string>
+
+    <string name="kalimay_astagfer_arabic">اَسْتَغْفِرُ اللهِ رَبِّىْ مِنْ كُلِِّ ذَنْۢبٍ اَذْنَبْتُهٗ عَمَدًا اَوْ خَطَا ًٔ سِرًّا اَوْ عَلَانِيَةً وَّاَتُوْبُ اِلَيْهِ مِنَ الذَّنْۢبِ الَّذِیْٓ اَعْلَمُ وَ مِنَ الذَّنْۢبِ الَّذِىْ لَآ اَعْلَمُ اِنَّكَ اَنْتَ عَلَّامُ الْغُيُوْبِ وَ سَتَّارُ الْعُيُوْبِ و َغَفَّارُ الذُّنُوْبِ وَ لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بِاللهِ الْعَلِىِِّ الْعَظِيْمِؕ‎</string>
+    <string name="kalimay_astagfer_uccharon"> উচ্চারণ : আস্তাগফিরুল্লাহা রাব্বি মিন কুল্লি জামবি আয নাবতুহু আমাদান আওখাতাআন সিররান আওয়ালা নিয়াতান ওয়াতুবু ইলাইহি মিনাযযামবিল্লাজি ওয়ামিনাযযামবিল্লাজি লা আলামু ইন্নাকা আনতা আল্লামুল গুয়ুবী ওয়া সাত্তারুল উইয়ুবী ওয়া গাফফারুজজুনুবি ওয়ালা হাওলা ওয়ালা কুয়াতা ইল্লা বিল্লাহিল আলিউল আযীম।</string>
+    <string name="kalimay_astagfer_ortho"> অর্থ : আমি আল্লাহ্‌র কাছে ক্ষমা চাই সকল পাপ থেকে, যা আমি সংঘটিত করেছি আমার জ্ঞাতসারে অথবা অজ্ঞাতসারে, গোপনে বা প্রকাশ্যে এবং আমি আমার পালনকর্তার আশ্রয় চাই সেই পাপ থেকে, যে পাপ আমি জানি এবং যে পাপ আমি জানিনা। অবশ্যই আপনি লুকানো এবং গোপন (ভুল) পাপ সম্পর্কে জানেন এবং ক্ষমাশীল। আল্লাহ্‌ ছাড়া কোন শক্তি নেই, কোন ক্ষমতা নেই, তিনি সম্মানিত, তিনি মহান। </string>
+
+    <string name="kalimay_kufur_arabic">اَللّٰهُمَّ اِنِّیْٓ اَعُوْذُ بِكَ مِنْ اَنْ اُشْرِكَ بِكَ شَيْئًا وَّاَنَآ اَعْلَمُ بِهٖ وَ اَسْتَغْفِرُكَ لِمَا لَآ اَعْلَمُ بِهٖ تُبْتُ عَنْهُ وَ تَبَرَّأْتُ مِنَ الْكُفْرِ وَ الشِّرْكِ وَ الْكِذْبِ وَ الْغِيْبَةِ وَ الْبِدْعَةِ وَ النَّمِيْمَةِ وَ الْفَوَاحِشِ وَ الْبُهْتَانِ وَ الْمَعَاصِىْ كُلِِّهَا وَ اَسْلَمْتُ وَ اَقُوْلُ لَآ اِلٰهَ اِلَّا اللهُ مُحَمَّدٌ رَّسُوْلُ اللهِؕ‎</string>
+    <string name="kalimay_kufur_uccharon"> উচ্চারণ : - আল্লাহুম্মা ইন্নি আউযুবিকা মিন উশরিকা বিকা শাইআও ওয়ানা আলামু বিহি ওয়াস্তাগফিরুকা লিমালা আলামু বিহি তুবতু আনহু ওয়া তাবাররাতু মিনাল-কুফরি ওয়াশ-শিরকী ওয়াল-কিজবি ওয়ালা-গিবাতি ওয়াল-বিদাতি ওয়ান্না-মিমাতি ওয়াল-ফাওয়া হিমি ওয়াল-রুহতানী ওয়াল-মাআসি কুল্লিহা ওয়াসলামতু ওয়াকুলু লা ইলাহা ইল্লাল্লাহু মুহাম্মাদুর রাসুলুল্লাহ (সাঃ) </string>
+    <string name="kalimay_kufur_ortho">  অর্থ : হে আল্লাহ্‌ নিশ্চয়, ক্ষমা চাই শিরক করা থেকে (আল্লাহ্‌র সাথে কাউকে শরিক করা), আমি ক্ষমা চাই সকল পাপ থেকে যা সম্পর্কে আমি সচেতন নই বা জানি না, আমি পুনরায় ঘোষণা করছি, আমি সকল প্রকার কুফর থেকে, শিরক থেকে, মিথ্যা (কথা বলা), গীবত, বিদাত, পরনিন্দা, অশ্লীলতা এবং অন্যান্য সকল পাপ থেকে মুক্ত। আমি ইসলাম স্বীকার এবং বিশ্বাস করি এবং ঘোষণা দিচ্ছি যে, আল্লাহ্‌ ছাড়া কোন প্রভু নেই এবং মুহাম্মদ (সাঃ) আল্লাহ্‌র প্রেরিত রাসুল।</string>
+
+
+    <string name="sura_al_fatha">সূরা আল ফাতিহা - Surah Al-Fatihah</string>
+    <string name="sura_al_nas">সূরা নাস - Surah Al-Nas</string>
+    <string name="sura_falak">সূরা ফালাক্ব - Surah Al-Falaq</string>
+    <string name="sura_ekhlas"> সূরা এখলাছ - Surah Al-Ikhlas</string>
+    <string name="sura_lahab">সূরা লাহাব - Surah Al-Lahab</string>
+    <string name="sura_kafirun">সূরা কাফিরুন - Surah Al-Kafirun</string>
+    <string name="sura_maun">সূরা মাউন - Surah Al-Maun</string>
+    <string name="sura_ziljhal">সূরা যিলযাল - Surah Al-Zalzalah</string>
+    <string name="sura_fiel">সূরা ফীল - Surah Al-Fil</string>
+    <string name="sura_nosor"> সূরা নছর - Surah An-Nasr </string>
+    <string name="sura_kausar">সূরা কাওসার - Surah Al-Kauthar </string>
+    <string name="sura_korais">সূরা কোরাইশ - Surah Quraish </string>
+    <string name="sura_kador">সূরা কদর - Surah Al-Qadr </string>
+    <string name="quran_webView">সম্পূর্ণ কোরআন (ইন্টারনেট প্রয়োজন)</string>
+
+    <!--sura Fateha start-->
+    <string-array name="sura_fateha_aiyat">
+        <item> 1) بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ</item>
+        <item>2) الْحَمْدُ للّهِ رَبِّ الْعَالَمِينَ</item>
+        <item>3) الرَّحْمـنِ الرَّحِيمِ</item>
+        <item>4) مَـالِكِ يَوْمِ الدِّينِ</item>
+        <item>5) إِيَّاكَ نَعْبُدُ وإِيَّاكَ نَسْتَعِينُ</item>
+        <item>6) اهدِنَــــا الصِّرَاطَ المُستَقِيمَ</item>
+        <item>7) صِرَاطَ الَّذِينَ أَنعَمتَ عَلَيهِمْ غَيرِ المَغضُوبِ عَلَيهِمْ وَلاَ الضَّالِّينَ</item>
+    </string-array>
+    <string-array name="sura_fatiha_english_ortho">
+        <item>In the name of Allah, Most Gracious, Most Merciful.</item>
+        <item>Praise be to Allah, the Cherisher and Sustainer of the worlds;</item>
+        <item>Most Gracious, Most Merciful;</item>
+        <item>	Master of the Day of Judgment.</item>
+        <item>	Thee do we worship, and Thine aid we seek.</item>
+        <item>Show us the straight way,</item>
+        <item>The way of those on whom Thou hast bestowed Thy Grace, those whose (portion) is not wrath, and who go not astray.</item>
+    </string-array>
+    <string-array name="sura_fatiha_bangla_ortho">
+        <item>শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।</item>
+        <item>যাবতীয় প্রশংসা আল্লাহ তা’আলার যিনি সকল সৃষ্টি জগতের পালনকর্তা।</item>
+        <item>যিনি নিতান্ত মেহেরবান ও দয়ালু।</item>
+        <item>যিনি বিচার দিনের মালিক।</item>
+        <item>আমরা একমাত্র তোমারই ইবাদত করি এবং শুধুমাত্র তোমারই সাহায্য প্রার্থনা করি।</item>
+        <item>আমাদেরকে সরল পথ দেখাও,</item>
+        <item>সে সমস্ত লোকের পথ, যাদেরকে তুমি নেয়ামত দান করেছ। তাদের পথ নয়, যাদের প্রতি তোমার গজব নাযিল হয়েছে এবং যারা পথভ্রষ্ট হয়েছে।</item>
+    </string-array>
+    <!--sura Fateha END -->
+    <!--sura nas start -->
+    <string-array name="sura_nas_aiyat">
+        <item> (1)  قُلْ أَعُوذُ بِرَبِّ النَّاسِ   </item>
+        <item> (2)  مَلِكِ النَّاسِ   </item>
+        <item> (3)  إِلَهِ النَّاسِ   </item>
+        <item> (4)  مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ   </item>
+        <item> (5)  الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ   </item>
+        <item> (6)  مِنَ الْجِنَّةِ وَ النَّاسِ    </item>
+    </string-array>
+    <string-array name="sura_nas_english">
+        <item> Say: I seek refuge with the Lord and Cherisher of Mankind,   </item>
+        <item> The King (or Ruler) of Mankind,</item>
+        <item>The Allah (for judge) of Mankind,</item>
+        <item>From the mischief of the Whisperer (of Evil), who withdraws (after his whisper),</item>
+        <item>(The same) who whispers into the hearts of Mankind,</item>
+        <item>Among Jinns and among men.</item>
+    </string-array>
+    <string-array name="sura_nas_bangla">
+        <item>বলুন, আমি আশ্রয় গ্রহণ করিতেছি মানুষের পালনকর্তার,</item>
+        <item>মানুষের অধিপতির,</item>
+        <item>মানুষের মা’বুদের</item>
+        <item>তার অনিষ্ট থেকে, যে কুমন্ত্রণা দেয় ও আত্নগোপন করে,</item>
+        <item>যে কুমন্ত্রণা দেয় মানুষের অন্তরে</item>
+        <item>জ্বিনের মধ্য থেকে অথবা মানুষের মধ্য থেকে।</item>
+    </string-array>
+    <!--sura nas END -->
+    <!--sura flack Start -->
+
+    <string-array name="sura_falak_aiyat">
+        <item>(1)  قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ</item>
+        <item>(2)  مِن شَرِّ مَا خَلَقَ</item>
+        <item>(3)  وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ</item>
+        <item>(4)  وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ</item>
+        <item>(5)  وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ</item>
+    </string-array>
+
+    <string-array name="sura_falak_english_ortho">
+        <item>Say: I seek refuge with the Lord of the Dawn</item>
+        <item>From the mischief of created things;</item>
+        <item>From the mischief of Darkness as it overspreads;</item>
+        <item>From the mischief of those who practise secret arts;</item>
+        <item>And from the mischief of the envious one as he practises envy.</item>
+    </string-array>
+
+    <string-array name="sura_falak_bangla_ortho">
+        <item>বলুন, আমি আশ্রয় গ্রহণ করছি প্রভাতের পালনকর্তার,</item>
+        <item>তিনি যা সৃষ্টি করেছেন, তার অনিষ্ট থেকে,</item>
+        <item>অন্ধকার রাত্রির অনিষ্ট থেকে, যখন তা সমাগত হয়,</item>
+        <item>	গ্রন্থিতে ফুঁৎকার দিয়ে জাদুকারিনীদের অনিষ্ট থেকে</item>
+        <item>এবং হিংসুকের অনিষ্ট থেকে যখন সে হিংসা করে।</item>
+    </string-array>
+    <!--sura flack END -->
+    <!--sura Ikhlas Start -->
+    <string-array name="sura_ikhlas_aiyat">
+        <item>(1)  قُلْ هُوَ اللَّهُ أَحَدٌ</item>
+        <item>(2)  اللَّهُ الصَّمَدُ</item>
+        <item>(3)  لَمْ يَلِدْ وَلَمْ يُولَدْ</item>
+        <item>(4)  وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ</item>
+    </string-array>
+    <string-array name="sura_ikhlas_english_ortho">
+        <item>Say: He is Allah, the One and Only;</item>
+        <item>Allah, the Eternal, Absolute;</item>
+        <item>He begetteth not, nor is He begotten;</item>
+        <item>And there is none like unto Him.</item>
+    </string-array>
+    <string-array name="sura_ikhlas_bangla_ortho">
+        <item>বলুন, তিনি আল্লাহ, এক,</item>
+        <item>আল্লাহ অমুখাপেক্ষী,</item>
+        <item>তিনি কাউকে জন্ম দেননি এবং কেউ তাকে জন্ম দেয়নি</item>
+        <item>এবং তার সমতুল্য কেউ নেই।</item>
+    </string-array>
+    <!--sura Ikhlas END -->
+    <!--sura lahab Start-->
+    <string-array name="sura_lahab_aiyat">
+        <item>(1)  تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ</item>
+        <item>(2)  مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ</item>
+        <item>(3)  سَيَصْلَى نَارًا ذَاتَ لَهَبٍ</item>
+        <item>(4)  وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ</item>
+        <item>(5)  فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ</item>
+    </string-array>
+    <string-array name="sura_lahab_english_ortho">
+        <item>Perish the hands of the Father of Flame! Perish he!</item>
+        <item>No profit to him from all his wealth, and all his gains!</item>
+        <item>Burnt soon will he be in a Fire of Blazing Flame!</item>
+        <item>His wife shall carry the (crackling) wood - As fuel!</item>
+        <item>A twisted rope of palm-leaf fibre round her (own) neck!</item>
+    </string-array>
+    <string-array name="sura_lahab_bangla_ortho">
+        <item>আবু লাহাবের হস্তদ্বয় ধ্বংস হোক এবং ধ্বংস হোক সে নিজে,</item>
+        <item>কোন কাজে আসেনি তার ধন-সম্পদ ও যা সে উপার্জন করেছে।</item>
+        <item>সত্বরই সে প্রবেশ করবে লেলিহান অগ্নিতে</item>
+        <item>এবং তার স্ত্রীও-যে ইন্ধন বহন করে,</item>
+        <item>তার গলদেশে খর্জুরের রশি নিয়ে।</item>
+    </string-array>
+    <!--sura Ikhlas END -->
+    <!--sura kafirun Start-->
+    <string-array name="sura_kafirun_aiyat">
+        <item>(1)  قُلْ يَا أَيُّهَا الْكَافِرُونَ</item>
+        <item>(2) لَا أَعْبُدُ مَا تَعْبُدُونَ</item>
+        <item>(3)وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ</item>
+        <item>(4)وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ</item>
+        <item>(5) وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ</item>
+        <item>(6) لَكُمْ دِينُكُمْ وَلِيَ دِينِ</item>
+    </string-array>
+    <string-array name="sura_kafirun_english_ortho">
+        <item>Say : O ye that reject Faith!</item>
+        <item>I worship not that which ye worship,</item>
+        <item>Nor will ye worship that which I worship.</item>
+        <item>	And I will not worship that which ye have been wont to worship,</item>
+        <item>Nor will ye worship that which I worship.</item>
+        <item>To you be your Way, and to me mine.</item>
+
+    </string-array>
+    <string-array name="sura_kafirun_bangla_ortho">
+        <item>বলুন, হে কাফেরকূল,</item>
+        <item>আমি এবাদত করিনা, তোমরা যার এবাদত কর।</item>
+        <item>এবং তোমরাও এবাদতকারী নও, যার এবাদত আমি করি</item>
+        <item>এবং আমি এবাদতকারী নই, যার এবাদত তোমরা কর।</item>
+        <item>তোমরা এবাদতকারী নও, যার এবাদত আমি করি।</item>
+        <item>তোমাদের কর্ম ও কর্মফল তোমাদের জন্যে এবং আমার কর্ম ও কর্মফল আমার জন্যে।</item>
+
+    </string-array>
+    <!--sura kafirun END -->
+    <!--sura maun Start -->
+    <string-array name="sura_maun_aiyat">
+
+        <item>(1)	أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ</item>
+
+
+        <item> (2)	فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ</item>
+
+
+        <item> (3)	وَلَا يَحُضُّ عَلَى طَعَامِ الْمِسْكِينِ</item>
+
+        <item> (4)	فَوَيْلٌ لِّلْمُصَلِّينَ</item>
+
+        <item> (5)	الَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ</item>
+
+        <item> (6)	الَّذِينَ هُمْ يُرَاؤُونَ</item>
+
+        <item> (7)	وَيَمْنَعُونَ الْمَاعُونَ</item>
+    </string-array>
+
+    <string-array name="sura_maun_english_ortho">
+        <item> Seest thou one who denies the Judgment (to come)?</item>
+        <item>  Then such is the (man) who repulses the orphan (with harshness),</item>
+        <item> And encourages not the feeding of the indigent.</item>
+        <item> So woe to the worshippers</item>
+        <item>  Who are neglectful of their prayers,</item>
+        <item> Those who (want but) to be seen (of men),</item>
+        <item> But refuse (to supply) (even) neighbourly needs.</item>
+    </string-array>
+    <string-array name="sura_maun_bangla_ortho">
+
+        <item> আপনি কি দেখেছেন তাকে, যে বিচারদিবসকে মিথ্যা বলে?</item>
+        <item> সে সেই ব্যক্তি, যে এতীমকে গলা ধাক্কা দেয়</item>
+        <item>  এবং মিসকীনকে অন্ন দিতে উৎসাহিত করে না।</item>
+        <item> অতএব দুর্ভোগ সেসব নামাযীর,</item>
+        <item>  যারা তাদের নামায সম্বন্ধে বে-খবর;</item>
+        <item> যারা তা লোক-দেখানোর জন্য করে</item>
+        <item> এবং নিত্য ব্যবহার্য্য বস্তু অন্যকে দেয় না।</item>
+    </string-array>
+
+    <!--sura maun END -->
+
+
+    <!--sura zilzalah Start -->
+    <string-array name="sura_zilzalah_aiyat">
+        <item> إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا  (1)</item>
+        <item>(2)	وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا</item>
+        <item>(3)	وَقَالَ الْإِنسَانُ مَا لَهَا</item>
+        <item>(4)	يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا</item>
+        <item>(5)	بِأَنَّ رَبَّكَ أَوْحَى لَهَا</item>
+        <item>(6)	يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِّيُرَوْا أَعْمَالَهُمْ</item>
+        <item>(7)	فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ</item>
+        <item>(8)	وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ</item>
+    </string-array>
+    <string-array name="sura_zilzalah_english_ortho">
+        <item> When the earth is shaken to her (utmost) convulsion,</item>
+        <item> And the earth throws up her burdens (from within),</item>
+        <item> And man cries (distressed): \'What is the matter with her?\'</item>
+        <item> On that Day will she declare her tidings:</item>
+        <item> For that thy Lord will have given her inspiration.</item>
+        <item> On that Day will men proceed in companies sorted out, to be shown the deeds that they (had done).</item>
+        <item> Then shall anyone who has done an atom\'s weight of good, see it!</item>
+        <item> And anyone who has done an atom\'s weight of evil, shall see it.</item>
+    </string-array>
+    <string-array name="sura_zilzal_bangla_ortho">
+        <item> যখন পৃথিবী তার কম্পনে প্রকম্পিত হবে,</item>
+        <item> যখন সে তার বোঝা বের করে দেবে।</item>
+        <item> এবং মানুষ বলবে, এর কি হল ?</item>
+        <item> সেদিন সে তার বৃত্তান্ত বর্ণনা করবে,</item>
+        <item> কারণ, আপনার পালনকর্তা তাকে আদেশ করবেন।</item>
+        <item> সেদিন মানুষ বিভিন্ন দলে প্রকাশ পাবে, যাতে তাদেরকে তাদের কৃতকর্ম দেখানো হয়।</item>
+        <item> অতঃপর কেউ অণু পরিমাণ সৎকর্ম করলে তা দেখতে পাবে</item>
+        <item> এবং কেউ অণু পরিমাণ অসৎকর্ম করলে তাও দেখতে পাবে।</item>
+    </string-array>
+    <!--sura zilzalah END -->
+
+    <!--sura fil Start -->
+    <string-array name="sura_fil_aiyat">
+        <item>(1)	أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ</item>
+        <item>(2)	أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ</item>
+        <item>(3)	وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ</item>
+        <item>(4)	تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ</item>
+        <item>(5)	فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍ</item>
+    </string-array>
+    <string-array name="sura_fil_english_ortho">
+        <item> Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant?</item>
+        <item> Did He not make their plan into misguidance?</item>
+        <item> And He sent against them birds in flocks,</item>
+        <item> Striking them with stones of hard clay,</item>
+        <item> And He made them like eaten straw.</item>
+    </string-array>
+    <string-array name="sura_fil_bangla_ortho">
+        <item> আপনি কি দেখেননি আপনার পালনকর্তা হস্তীবাহিনীর সাথে কিরূপ ব্যবহার করেছেন?</item>
+        <item> তিনি কি তাদের চক্রান্ত নস্যাৎ করে দেননি?</item>
+        <item> তিনি তাদের উপর প্রেরণ করেছেন ঝাঁকে ঝাঁকে পাখী,</item>
+        <item> যারা তাদের উপর পাথরের কংকর নিক্ষেপ করছিল।</item>
+        <item> অতঃপর তিনি তাদেরকে ভক্ষিত তৃণসদৃশ করে দেন।</item>
+    </string-array>
+    <!--sura fil END -->
+
+    <!--sura nasr Start -->
+    <string-array name="sura_nasr_aiyat">
+        <item>(1)	إِذَا جَاء نَصْرُ اللَّهِ وَالْفَتْحُ</item>
+        <item>(2)	وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا</item>
+        <item>(3)	فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا</item>
+    </string-array>
+    <string-array name="sura_nasr_english_ortho">
+        <item> When the victory of Allah has come and the conquest,</item>
+        <item> And you see the people entering into the religion of Allah in multitudes,</item>
+        <item> Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.</item>
+    </string-array>
+    <string-array name="sura_nasr_bangla_ortho">
+        <item> যখন আসবে আল্লাহর সাহায্য ও বিজয়</item>
+        <item> এবং আপনি মানুষকে দলে দলে আল্লাহর দ্বীনে প্রবেশ করতে দেখবেন,</item>
+        <item> তখন আপনি আপনার পালনকর্তার পবিত্রতা বর্ণনা করুন এবং তাঁর কাছে ক্ষমা প্রার্থনা করুন। নিশ্চয় তিনি ক্ষমাকারী।</item>
+    </string-array>
+    <!--sura nasr END -->
+
+    <!--sura kauthar Start -->
+    <string-array name="sura_kauchar_aiyat">
+        <item>(1)	إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ</item>
+        <item>(2)	فَصَلِّ لِرَبِّكَ وَانْحَرْ</item>
+        <item>(3)	إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ</item>
+    </string-array>
+    <string-array name="sura_kauchar_english_ortho">
+        <item> Indeed, We have granted you, [O Muhammad], al-Kawthar.</item>
+        <item> So pray to your Lord and sacrifice [to Him alone].</item>
+        <item> Indeed, your enemy is the one cut off.</item>
+    </string-array>
+    <string-array name="sura_kauchar_bangla_ortho">
+        <item> নিশ্চয় আমি আপনাকে কাওসার দান করেছি।</item>
+        <item> অতএব আপনার পালনকর্তার উদ্দেশ্যে নামায পড়ুন এবং কোরবানী করুন।</item>
+        <item> যে আপনার শত্রু, সেই তো লেজকাটা, নির্বংশ।</item>
+    </string-array>
+    <!--sura kauthar END -->
+
+    <!--sura quraish Start -->
+    <string-array name="sura_quraish_aiyat">
+        <item>(1)	لِإِيلَافِ قُرَيْشٍ</item>
+        <item>(2)	إِيلَافِهِمْ رِحْلَةَ الشِّتَاء وَالصَّيْفِ</item>
+        <item>(3)	فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ</item>
+        <item>(4)	الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْفٍ</item>
+    </string-array>
+    <string-array name="sura_quraish_english_ortho">
+        <item> For the covenants (of security and safeguard enjoyed) by the Quraish,</item>
+        <item> Their covenants (covering) journeys by winter and summer,</item>
+        <item> Let them adore the Lord of this House,</item>
+        <item> Who provides them with food against hunger, and with security against fear (of danger).</item>
+    </string-array>
+    <string-array name="sura_quraish_bangla_ortho">
+        <item> কোরাইশের আসক্তির কারণে,</item>
+        <item> আসক্তির কারণে তাদের শীত ও গ্রীষ্মকালীন সফরের।</item>
+        <item> অতএব তারা যেন এবাদত করে এই ঘরের পালনকর্তার</item>
+        <item> যিনি তাদেরকে ক্ষুধায় আহার দিয়েছেন এবং যুদ্ধভীতি থেকে তাদেরকে নিরাপদ করেছেন।</item>
+    </string-array>
+    <!--sura quraish END -->
+
+    <!--sura qadr Start -->
+    <string-array name="sura_qadr_aiyat">
+        <item>(1) إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِِ</item>
+        <item>(2)  وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ</item>
+        <item>(3)  لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ</item>
+        <item>(4)  تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ</item>
+        <item>(5)  سَلَامٌ هِيَ حَتَّى مَطْلَعِ الْفَجْرِ</item>
+    </string-array>
+    <string-array name="sura_qadr_english_ortho">
+        <item> Indeed, We sent the Qur\'an down during the Night of Decree.</item>
+        <item> And what can make you know what is the Night of Decree?</item>
+        <item> The Night of Power is better than a thousand months.</item>
+        <item> The angels and the Spirit descend therein by permission of their Lord for every matter.</item>
+        <item> Peace it is until the emergence of dawn.</item>
+    </string-array>
+    <string-array name="sura_qadr_bangla_ortho">
+        <item> আমি একে নাযিল করেছি শবে-কদরে।</item>
+        <item> শবে-কদর সমন্ধে আপনি কি জানেন?</item>
+        <item> শবে-কদর হল এক হাজার মাস অপেক্ষা শ্রেষ্ঠ।</item>
+        <item> এতে প্রত্যেক কাজের জন্যে ফেরেশতাগণ ও রূহ অবতীর্ণ হয় তাদের পালনকর্তার নির্দেশক্রমে।</item>
+        <item> এটা নিরাপত্তা, যা ফজরের উদয় পর্যন্ত অব্যাহত থাকে।</item>
+    </string-array>
+    <!--sura qadr END -->
+
+
+
+    <!--<string-array name="allah_Er_Name">
+
+        <item>الله (আল্লাহ)</item>
+        <item>الرحمن (আর রাহমান)</item>
+        <item>الرحيم (আর-রহী'ম)</item>
+        <item> الملك (আল-মালিক)	 </item>
+        <item>القدوس (আল-কুদ্দুস)</item>
+        <item>السلام  (আস-সালাম)</item>
+        <item>المؤمن (আল-মু'মিন)	</item>
+        <item>المهيمن (আল-মুহাইমিন)</item>
+        <item>العزيز (আল-আ'জীজ)</item>
+        <item>الجبار (আল-জাব্বার)</item>
+
+
+        <item> المتكبر (আল-মুতাকাব্বিইর)</item>
+        <item> الخالق (আল-খালিক্ব) </item>
+        <item> البارئ (আল-বারী )	 </item>
+        <item> المصور (আল-মুছউইর) </item>
+        <item> الغفار (আল-গফ্ফার) </item>
+        <item> القهار (আল-ক্বাহার)	 </item>
+        <item> الوهاب (আল-ওয়াহ্হাব)	 </item>
+        <item> الرزاق (আর-রজ্জাক্ব)	 </item>
+        <item> الفتاح (আল ফাত্তাহ) </item>
+        <item> العليم (আল-আ'লীম)	 </item>
+
+        <item> القابض (আল-ক্ববিদ্ব') </item>
+        <item> الباسط (আল-বাসিত) </item>
+        <item> الخافض (আল-খফিদ্বু) </item>
+        <item> الرافع (আর-রফীই') </item>
+        <item> المعز (আল-মুই'জ্ব)	 </item>
+        <item> المذل (আল-মুদ্বি'ল্লু)  </item>
+        <item> السميع (আস্-সামিই')	 </item>
+        <item> البصير (আল-বাছীর)	 </item>
+        <item> الحكم (আল-হা'কাম)	 </item>
+        <item> العدل (আল-আ'দল) </item>
+
+
+        <item> اللطيف (আল-লাতীফ)	 </item>
+        <item> الخبير (আল-খ'বীর) </item>
+        <item> الحليم (আল-হা'লীম)	 </item>
+        <item> العظيم (আল-আ'জীম) </item>
+        <item> الغفور (আল-গফুর)	 </item>
+        <item> الشكور (আশ্-শাকুর) </item>
+        <item> العلي (আল-আ'লিইউ)	 </item>
+        <item> الكبير (আল-কাবিইর)	 </item>
+        <item> الحفيظ (আল-হা'ফীজ)	 </item>
+        <item> المقيت (আল-মুক্বীত) </item>
+
+        <item> الحسيب (আল-হাসীব) </item>
+        <item> الجليل (আল-জালীল)	 </item>
+        <item> الكريم (আল-কারীম)	 </item>
+        <item> الرقيب (আর-রক্বীব)	 </item>
+        <item> المجيب (আল-মুজীব)	 </item>
+        <item> الواسع (আল-ওয়াসি') </item>
+        <item> الحكيم (আল-হাকীম) </item>
+        <item> الودود (আল-ওয়াদুদ)	 </item>
+        <item> المجيد (আল-মাজীদ) </item>
+        <item> الباعث (আল-বাই'ছ')</item>
+
+
+        <item> الشهيد(আশ্-শাহীদ) </item>
+
+        <item> الحق (আল-হা'ক্ব) </item>
+
+        <item> الوكيل (আল-ওয়াকিল) </item>
+
+        <item> القوي (আল-ক্বউইউ) </item>
+
+        <item> المتين (আল-মাতীন)</item>
+
+        <item> الولي (আল-ওয়ালিইউ)</item>
+
+        <item> الحميد (আল-হা'মীদ)</item>
+
+        <item> المحصي (আল-মুহছী)</item>
+
+        <item> المبدئ (আল-মুব্দি')	</item>
+
+        <item> المعيد (আল-মুঈ'দ) </item>
+
+        <item> المحيي (আল-মুহ'য়ী) </item>
+        <item> المميت (আল-মুমীত) </item>
+        <item> الحي (আল-হাইয়্যু) </item>
+        <item> القيوم (আল-ক্বাইয়্যুম)	 </item>
+        <item> الواجد (আল-ওয়াজিদ) </item>
+        <item> الماجد (আল-মাজিদ) </item>
+        <item> الواحد (আল-ওয়াহি'দ) </item>
+        <item> الصمد (আছ্-ছমাদ)</item>
+        <item> القادر (আল-ক্বদির) </item>
+        <item> المقتدر (আল-মুক্ব্তাদির)</item>
+
+        <item> المقدم (আল-মুক্বদ্দিম)</item>
+        <item> المؤخر (আল-মুয়াক্খির)</item>
+        <item>الأول (আল-আউয়াল) </item>
+        <item> الأخر (আল-আখির)</item>
+        <item> الظاهر(আজ-জ'হির)</item>
+        <item> الباطن (আল-বাত্বিন)</item>
+        <item> الوالي (আল-ওয়ালি)</item>
+        <item> المتعالي (আল-মুতাআ'লি) </item>
+        <item> البر (আল-বার্)</item>
+        <item>التواب (আত্-তাওয়াব) </item>
+
+        <item> المنتقم (আল-মুনতাক্বিম)</item>
+        <item> العفو (আল-আ'ফঊ)</item>
+        <item> الرؤوف (আর-রউফ)</item>
+        <item> مالك الملك (মালিকুল-মুলক) </item>
+        <item> ذو الجلال والإكرام (যুল-জালালি-ওয়াল-ইকরাম)</item>
+        <item> المقسط (আল-মুক্ব্সিত হকদারের)</item>
+        <item> الجامع (আল-জামিই')</item>
+        <item> الغني (আল-গণিই')</item>
+        <item> المغني (আল-মুগণিই')</item>
+        <item> المانع (আল-মানিই')</item>
+
+        <item> الضار (আয্-যর)</item>
+        <item> النافع (আন্-নাফিই')</item>
+        <item> النور (আন্-নূর)</item>
+        <item> الهادي (আল-হাদী)</item>
+        <item>البديع (আল-বাদীই')</item>
+        <item> الباقي (আল-বাক্বী)</item>
+        <item> الوارث (আল-ওয়ারিস')</item>
+        <item> الرشيد (আর-রাশীদ)</item>
+        <item>الصبور (আস-সবুর)</item>
+    </string-array>-->
+    <!--
+        <string-array name="name_er_ortho">
+
+            <item>আল্লাহ</item>
+            <item>পরম দয়ালু</item>
+            <item> অতিশয়-মেহেরবান </item>
+            <item> সর্বকর্তৃত্বময় </item>
+            <item>নিষ্কলুষ, অতি পবিত্র</item>
+            <item>নিরাপত্তা-দানকারী, শান্তি-দানকারী</item>
+            <item> নিরাপত্তা ও ঈমান দানকারী </item>
+            <item>পরিপূর্ন রক্ষণাবেক্ষণকারী</item>
+            <item>পরাক্রমশালী, অপরাজেয়	</item>
+            <item>	দুর্নিবার</item>
+
+
+            <item> 	নিরঙ্কুশ শ্রেষ্ঠত্বের অধিকারী </item>
+            <item> 	সৃষ্টিকর্তা </item>
+            <item> সঠিকভাবে সৃষ্টিকারী </item>
+            <item> 	আকৃতি-দানকারী </item>
+            <item> পরম ক্ষমাশীল </item>
+            <item> কঠোর </item>
+            <item> সবকিছু দানকারী </item>
+            <item> রিযিকদাতা </item>
+            <item> 	বিজয়দানকারী </item>
+            <item> সর্বজ্ঞ </item>
+
+
+            <item> 	সংকীর্ণকারী </item>
+            <item> 	প্রশস্তকারী </item>
+            <item> অবনতকারী </item>
+            <item> 	উন্নতকারী </item>
+            <item> সম্মান-দানকারী </item>
+            <item> (অবিশ্বাসীদের) বেইজ্জতকারী </item>
+            <item> সর্বশ্রোতা </item>
+            <item> সর্ববিষয়-দর্শনকারী </item>
+            <item> অটল বিচারক </item>
+            <item> পরিপূর্ণ-ন্যায়বিচারক </item>
+
+
+            <item> সকল-গোপন-বিষয়ে-অবগত </item>
+            <item> সকল ব্যাপারে জ্ঞাত </item>
+            <item> অত্যন্ত ধৈর্যশীল </item>
+            <item> সর্বোচ্চ-মর্যাদাশীল </item>
+            <item> পরম ক্ষমাশীল </item>
+            <item> গুনগ্রাহী </item>
+            <item> উচ্চ-মর্যাদাশীল </item>
+            <item> সুমহান </item>
+            <item> সংরক্ষণকারী </item>
+            <item> সকলের জীবনোপকরণ-দানকারী </item>
+
+            <item> হিসাব-গ্রহণকারী </item>
+            <item> পরম মর্যাদার অধিকারী </item>
+            <item> সুমহান দাতা </item>
+            <item> তত্ত্বাবধায়ক </item>
+            <item> জবাব-দানকারী, কবুলকারী </item>
+            <item> 	সর্ব-ব্যাপী, সর্বত্র-বিরাজমান </item>
+            <item> পরম-প্রজ্ঞাময় </item>
+            <item> (বান্দাদের প্রতি) সদয় </item>
+            <item> 	সকল-মর্যাদার-অধিকারী </item>
+            <item> পুনুরুজ্জীবিতকারী </item>
+
+            <item> সর্বজ্ঞ-স্বাক্ষী </item>
+            <item> পরম সত্য </item>
+            <item> পরম নির্ভরযোগ্য কর্ম-সম্পাদনকারী </item>
+            <item> পরম-শক্তির-অধিকারী	 </item>
+            <item> সুদৃঢ় </item>
+            <item> অভিভাবক ও সাহায্যকারী </item>
+            <item> সকল প্রশংসার অধিকারী </item>
+            <item> সকল সৃষ্টির ব্যপারে অবগত </item>
+            <item> প্রথমবার-সৃষ্টিকর্তা  </item>
+            <item> 	পুনরায়-সৃষ্টিকর্তা </item>
+
+            <item>জীবন-দানকারী </item>
+            <item>মৃত্যু-দানকারী </item>
+            <item> চিরঞ্জীব</item>
+            <item>সমস্তকিছুর ধারক ও সংরক্ষণকারী </item>
+            <item> অফুরন্ত ভান্ডারের অধিকারী</item>
+            <item> 	শ্রেষ্ঠত্বের অধিকারী</item>
+            <item> এক ও অদ্বিতীয়</item>
+            <item> অমুখাপেক্ষী	</item>
+            <item> সর্বশক্তিমান</item>
+            <item> নিরঙ্কুশ-সিদ্বান্তের-অধিকারী</item>
+
+
+            <item> অগ্রসারক</item>
+            <item>অবকাশ দানকারী  </item>
+            <item>অনাদি </item>
+            <item>অনন্ত, সর্বশেষ </item>
+            <item>	সম্পূর্নরূপে-প্রকাশিত </item>
+            <item> দৃষ্টি হতে অদৃশ্য</item>
+            <item>সমস্ত-কিছুর-অভিভাবক </item>
+            <item> সৃষ্টির গুনাবলীর উর্দ্ধে</item>
+            <item>পরম-উপকারী, অণুগ্রহশীল  </item>
+            <item> তাওবার তাওফিক দানকারী এবং কবুলকারী</item>
+
+            <item> প্রতিশোধ-গ্রহণকারী </item>
+            <item> পরম-উদার </item>
+            <item> পরম-স্নেহশীল </item>
+            <item> সমগ্র জগতের বাদশাহ্ </item>
+            <item> 	মহিমান্বিত ও দয়াবান সত্তা </item>
+            <item>  হক-আদায়কারী </item>
+            <item> 	একত্রকারী, সমবেতকারী </item>
+            <item> অমুখাপেক্ষী ধনী </item>
+            <item> পরম-অভাবমোচনকারী </item>
+            <item> অকল্যানরোধক </item>
+
+            <item>ক্ষতিসাধনকারী </item>
+            <item>	কল্যাণকারী </item>
+            <item> পরম-আলো	 </item>
+            <item>পথ-প্রদর্শক  </item>
+            <item> অতুলনীয়</item>
+            <item>চিরস্থায়ী, অবিনশ্বর  </item>
+            <item> উত্তরাধিকারী</item>
+            <item>সঠিক পথ-প্রদর্শক  </item>
+            <item> অত্যধিক ধৈর্যধারণকারী</item>
+        </string-array>-->
+
+
+</resources>

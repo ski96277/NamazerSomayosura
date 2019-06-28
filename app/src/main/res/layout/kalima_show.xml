@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:background="@drawable/backgroundimage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="10dp"
+                android:minHeight="150dp"
+                android:backgroundTint="@color/transparent_background">
+
+                <TextView
+                    android:id="@+id/arbi_show_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="100dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/text_color_white_TV"
+                    android:textSize="@dimen/text_vew_size2" />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="10dp"
+                android:minHeight="150dp"
+                android:backgroundTint="@color/transparent_background">
+
+                <TextView
+                    android:id="@+id/uccharon_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/transparent_background"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:minHeight="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/text_vew_size3" />
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="10dp"
+                android:minHeight="150dp"
+                android:backgroundTint="@color/transparent_background">
+
+                <TextView
+                    android:id="@+id/bangla_Ortho_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="100dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/text_color_white_TV"
+                    android:textSize="@dimen/text_vew_size3" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+</layout>

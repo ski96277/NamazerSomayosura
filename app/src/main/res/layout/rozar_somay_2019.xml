@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundimage">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:id="@+id/table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="2dp">
+
+                <TableRow android:background="@color/transparent_background2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="রমজান"
+                        android:textSize="@dimen/text_vew_size3"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="তারিখ"
+                        android:textSize="@dimen/text_vew_size3"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="সেহেরী শেষ"
+                        android:textSize="@dimen/text_vew_size3"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="ইফতার"
+                        android:textSize="@dimen/text_vew_size2"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:52 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="6:34 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:51 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="6:34 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="9"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:50 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="6:35 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="10"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"                        android:gravity="center"
+
+                        android:text="3:50 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"                        android:gravity="center"
+
+                        android:text="6:35 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="11"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:49 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="6:36 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="1"                        android:gravity="center"
+                        android:text="6"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="12"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:49 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="6:36 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="13"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:48 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"                        android:gravity="center"
+
+                        android:text="6:36 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="14"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"                        android:gravity="center"
+
+                        android:text="3:48 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"                        android:gravity="center"
+
+                        android:text="6:37 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="9"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+
+                        android:gravity="center"
+                        android:text="15"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:47 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="6:37 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="10"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="16"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"                        android:gravity="center"
+
+                        android:text="3:47 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"                        android:gravity="center"
+                        android:text="6:38 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="11"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="17"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"                        android:gravity="center"
+
+                        android:text="3:46 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+
+                        android:layout_weight="4"                        android:gravity="center"
+
+                        android:text="6:38 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="12"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="18"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:46 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:39 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="13"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="19"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+
+                        android:gravity="center"
+                        android:text="3:45 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+
+                        android:gravity="center"
+                        android:text="6:39 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="14"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="20"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:44 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:40 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="15"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="21"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:44 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:40 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="16"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="22"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:43 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:41 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="17"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="23"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:43 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:42 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="18"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="24"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:42 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:42 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="19"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="25"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:42 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:42 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="20"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="26"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+
+                        android:id="@+id/seheri_time_TV_26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:41 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:43 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="21"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="27"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:41 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:43 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table_row_28"
+                    android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="22"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="28"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:40 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:44 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table_row_29"
+                    android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="23"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="29"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:40 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:44 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table_row_30"
+                    android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="24"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="30"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:40 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:45 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table_row_31"
+                    android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="25"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="31"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:39 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:45 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="26"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:39 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:46 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="27"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:39 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="6:46 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="28"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:39 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="6:46 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="29"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="3:39 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:text="4:47 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+                <TableRow android:background="@color/transparent_background">
+
+                    <TextView
+                        android:id="@+id/date_roza_TV_30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="30"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/date_TV_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+
+                        android:text="5"
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/seheri_time_TV_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="3:39 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                    <TextView
+                        android:id="@+id/iftar_time_TV_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+
+                        android:text="6:47 "
+                        android:textSize="@dimen/text_vew_size2" />
+
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

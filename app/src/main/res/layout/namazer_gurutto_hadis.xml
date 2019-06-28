@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundimage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/iman_hadith_button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/transparent_background"
+                android:text="@string/hadith_iman"
+                android:minHeight="80dp"
+                android:textSize="@dimen/text_vew_size1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/salat_hadith_button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/transparent_background"
+                android:text="@string/hadith_salat"
+                android:minHeight="80dp"
+                android:textSize="@dimen/text_vew_size1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/siam_hadith_button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:minHeight="80dp"
+                android:backgroundTint="@color/transparent_background"
+                android:text="@string/hadith_siam"
+                android:textSize="@dimen/text_vew_size1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/hazz_hadith_button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:minHeight="80dp"
+                android:backgroundTint="@color/transparent_background"
+                android:text="@string/hadith_hazz"
+                android:textSize="@dimen/text_vew_size1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/jakat_hadith_button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:minHeight="80dp"
+                android:backgroundTint="@color/transparent_background"
+                android:text="@string/hadith_jakat"
+                android:textSize="@dimen/text_vew_size1" />
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

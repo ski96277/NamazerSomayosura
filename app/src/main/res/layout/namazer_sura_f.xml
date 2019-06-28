@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundimage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_al_fatah_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background"
+                android:minHeight="80dp"
+                android:text="@string/sura_al_fatha"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_nas_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background2"
+                android:minHeight="80dp"
+                android:text="@string/sura_al_nas"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_falak_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background"
+                android:minHeight="80dp"
+                android:text="@string/sura_falak"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_ekhlas_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background2"
+                android:minHeight="80dp"
+                android:text="@string/sura_ekhlas"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_lahab_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background"
+                android:minHeight="80dp"
+                android:text="@string/sura_lahab"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_kafirun_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background2"
+                android:minHeight="80dp"
+                android:text="@string/sura_kafirun"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_maun_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background"
+                android:minHeight="80dp"
+                android:text="@string/sura_maun"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_zilzahal_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background2"
+                android:minHeight="80dp"
+                android:text="@string/sura_ziljhal"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_feil_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background"
+                android:minHeight="80dp"
+                android:text="@string/sura_fiel"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_nosor_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background2"
+                android:minHeight="80dp"
+                android:text="@string/sura_nosor"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_kausar_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background"
+                android:minHeight="80dp"
+                android:text="@string/sura_kausar"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_korais_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background2"
+                android:minHeight="80dp"
+                android:text="@string/sura_korais"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sura_kador_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background"
+                android:minHeight="80dp"
+                android:text="@string/sura_kador"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/quran_webView_Button_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/transparent_background"
+                android:minHeight="80dp"
+                android:text="@string/quran_webView"
+                android:textColor="@color/text_color_white_TV"
+                android:textSize="@dimen/text_vew_size3" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

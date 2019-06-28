@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_view_allahr_name.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\item_view_allahr_name.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\kalima_show.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\kalima_show.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\rozar_somay_2019.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\rozar_somay_2019.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\hadith_details_f.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\hadith_details_f.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sura_details_f.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\sura_details_f.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\namazer_sura_f.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\namazer_sura_f.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\allahr_99_name.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\allahr_99_name.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\namazer_gurutto_hadis.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\namazer_gurutto_hadis.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_fragment.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\kalima_somuho_list_f.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\kalima_somuho_list_f.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\tasbih_f.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\tasbih_f.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\about_us_f.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\about_us_f.xml"
+    },
+    {
+        "merged": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\quranweb_view_f.xml",
+        "source": "D:\\Android App\\1. Project\\NamazerSomayosura\\app\\src\\main\\res\\layout\\quranweb_view_f.xml"
+    }
+]

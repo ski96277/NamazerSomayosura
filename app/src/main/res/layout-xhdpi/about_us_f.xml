@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="340dp"
+                android:layout_height="300dp"
+                android:src="@drawable/manager"
+                android:scaleType="fitXY"/>
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_background"
+            android:layout_marginTop="5dp"
+            android:text="Shaikh Imran Hossain"
+            android:textColor="@color/text_color_white_TV"
+            android:textSize="@dimen/text_vew_size2"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_background"
+            android:text="imran.bu96@gmail.com"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_color_white_TV"
+            android:textSize="@dimen/text_vew_size2"
+            android:padding="10dp"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="340dp"
+                android:layout_height="300dp"
+                android:src="@drawable/manager"
+                android:scaleType="fitXY"/>
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_background"
+            android:layout_marginTop="5dp"
+            android:text="Aminur Reza Siam"
+            android:textColor="@color/text_color_white_TV"
+            android:textSize="@dimen/text_vew_size2"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_background"
+            android:text="siam.reja420@gmail"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_color_white_TV"
+            android:textSize="@dimen/text_vew_size2"
+            android:padding="10dp"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="340dp"
+                android:layout_height="300dp"
+                android:src="@drawable/manager"
+                android:scaleType="fitXY"/>
+
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_background"
+            android:text="Ashraful Haq Ashik"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/text_color_white_TV"
+            android:textSize="@dimen/text_vew_size2"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent_background"
+            android:text="ashrafulhaqashik7788@gmail.com"
+            android:layout_marginTop="5dp"
+
+            android:textColor="@color/text_color_white_TV"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+</layout>

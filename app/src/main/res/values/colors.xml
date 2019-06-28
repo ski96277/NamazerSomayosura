@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--  <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>-->
+    <!--<color name="colorPrimary">#564057</color>-->
+    <color name="colorPrimary">#75465A</color>
+    <color name="colorPrimaryDark">#75465A</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="text_color_white_TV">#F7F4F4</color>
+
+    <color name="border_black_color">#D8D4D4</color>
+
+    <color name="transparent_background">#80000000</color>
+    <color name="transparent_background2">#D3181818</color>
+    <color name="transparent_background3">#D35A0B0B</color>
+    <color name="transparent_background4">#D3068BF1</color>
+    <color name="transparent_background5">#C1D6A7E7</color>
+
+</resources>

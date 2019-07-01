@@ -89,11 +89,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       }
       switch(localizedLayoutId) {
         case  LAYOUT_ABOUTUSF: {
-          if ("layout/about_us_f_0".equals(tag)) {
-            return new AboutUsFBindingImpl(component, view);
-          }
           if ("layout-xhdpi/about_us_f_0".equals(tag)) {
             return new AboutUsFBindingXhdpiImpl(component, view);
+          }
+          if ("layout/about_us_f_0".equals(tag)) {
+            return new AboutUsFBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for about_us_f is invalid. Received: " + tag);
         }
@@ -231,8 +231,8 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(15);
 
     static {
-      sKeys.put("layout/about_us_f_0", com.example.namazersomayosura.R.layout.about_us_f);
       sKeys.put("layout-xhdpi/about_us_f_0", com.example.namazersomayosura.R.layout.about_us_f);
+      sKeys.put("layout/about_us_f_0", com.example.namazersomayosura.R.layout.about_us_f);
       sKeys.put("layout/allahr_99_name_0", com.example.namazersomayosura.R.layout.allahr_99_name);
       sKeys.put("layout/content_main_0", com.example.namazersomayosura.R.layout.content_main);
       sKeys.put("layout/hadith_details_f_0", com.example.namazersomayosura.R.layout.hadith_details_f);

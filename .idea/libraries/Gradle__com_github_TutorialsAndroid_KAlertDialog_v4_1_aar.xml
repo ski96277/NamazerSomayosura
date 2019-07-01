@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.TutorialsAndroid:KAlertDialog:v4.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a89e6ebdf978c269f6000f7f50632f5b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a89e6ebdf978c269f6000f7f50632f5b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.TutorialsAndroid/KAlertDialog/v4.1/6c3c5c52f02a697423bbaca6b7fc57706f82f378/KAlertDialog-v4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

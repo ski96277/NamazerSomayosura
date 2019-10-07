@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/backgroundimage" android:tag="layout/allahr_99_name_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ListView
+            android:id="@+id/namle_list_recyclerView_ID"
+            android:layout_width="match_parent"
+            android:dividerHeight="5dp"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+         

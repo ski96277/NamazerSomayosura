@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/home_fragment_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backgroundimage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linearlayout_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:orientation="vertical"
+                    android:scaleType="fitXY"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.51"
+                    tools:ignore="MissingConstraints">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/fozorer_namazer_time_linear"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/layout_background"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/fozor_time_TV"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:text="@string/fozor"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:id="@+id/sunrise_namazer_time_linear"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/layout_background"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/sunrise_time_TV"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:text="@string/sunrise"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/zohorer_namazer_time_linear"
+
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/layout_background"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:id="@+id/dhuhur_time_TV"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:text="@string/zohor"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:id="@+id/achor_namazer_time_linear"
+
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/layout_background"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/achor_time_TV"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:text="@string/achor"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:id="@+id/magrib_namazer_time_linear"
+                            android:layout_width="0dp"
+
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="2dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/layout_background"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/magrib_time_TV"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:text="@string/magrib"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/eshar_namazer_time_linear"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/layout_background"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/isha_time_TV"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@color/transparent_background"
+                                android:gravity="center"
+                                android:text="@string/esha"
+                                android:textColor="@color/text_color_white_TV"
+                                android:textSize="@dimen/text_vew_size2" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/rozar_somay_Button_ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:backgroundTint="@color/transparent_background"
+                        android:gravity="center"
+                        android:text="@string/rozar_somay_somuho"
+                        android:textColor="@color/text_color_white_TV"
+                        android:textSize="@dimen/text_vew_size1"
+                        app:strokeWidth="5dp"
+                        android:visibility="gone"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/kalima_somuho_Button_ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:backgroundTint="@color/transparent_background"
+                        android:gravity="center"
+                        android:text="@string/kalima_somuho"
+                        android:textColor="@color/text_color_white_TV"
+                        android:textSize="@dimen/text_vew_size1"
+                        app:strokeWidth="5dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/namazer_sura_Button_ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:backgroundTint="@color/transparent_background"
+                        android:gravity="center"
+                        android:text="@string/namazer_sura_somuho"
+                        android:textColor="@color/text_color_white_TV"
+                        android:textSize="@dimen/text_vew_size1"
+                        app:strokeWidth="5dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/namazer_gurutto_hadis_Button_ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:backgroundTint="@color/transparent_background"
+                        android:gravity="center"
+                        android:text="@string/hadis"
+                        android:textColor="@color/text_color_white_TV"
+                        android:textSize="@dimen/text_vew_size1"
+                        app:strokeWidth="5dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/allah_er_99_Nam_Button_ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:backgroundTint="@color/transparent_background"
+                        android:gravity="center"
+                        android:text="@string/name_99"
+                        android:textColor="@color/text_color_white_TV"
+                        android:textSize="@dimen/text_vew_size1"
+                        app:strokeWidth="5dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/tasbih_Button_ID"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:backgroundTint="@color/transparent_background"
+                        android:gravity="center"
+                        android:text="@string/tasbi"
+                        android:textColor="@color/text_color_white_TV"
+                        android:textSize="@dimen/text_vew_size1"
+                        app:strokeColor="#000"
+                        app:strokeWidth="5dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         
